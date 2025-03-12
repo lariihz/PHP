@@ -1,0 +1,5 @@
+<?php
+exec("php -r 'sleep(5); echo \"Tarefa concluída!\";' > output.txt &");
+
+echo "Tarefa iniciada em segundo plano!\n";
+?>
